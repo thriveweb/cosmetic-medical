@@ -67,7 +67,7 @@ class App extends Component {
             phone={phone}
             address={address}
             openingHours={openingHours}
-            logoUrl={`${siteUrl}/images/teeth-on-ferry-logo@2x.png`}
+            logoUrl={`${siteUrl}/images/logo.png`}
           />
           <Meta
             title={siteTitle}
