@@ -61,7 +61,7 @@ export default ({ globalSettings, socialSettings, navLinks }) => (
     </div>
     <div className='Footer--Lower'>
       <div className='Container taCenter'>
-        © 2017 Teeth on Ferry. All rights reserved.{' '}
+        © 2018 Cosmetic Medical Industry. All rights reserved.{' '}
         <a
           href='https://thriveweb.com.au/'
           rel='nofollow'

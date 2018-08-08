@@ -16,7 +16,7 @@
 }
 
 .Footer--IconLink {
-  color: var(--tertiary);
+  color: var(--lightGrey);
   text-decoration: none;
   margin-bottom: 2rem;
   display: block;
