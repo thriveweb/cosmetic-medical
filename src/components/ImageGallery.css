@@ -1,0 +1,19 @@
+.ImageGallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.ImageGallery--Thumbnail {
+  height: 15vw;
+  max-height: 25rem;
+  min-height: 10rem;
+  width: auto;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+.ImageGallery--EmbedContainer {
+  padding-top: 2rem;
+}

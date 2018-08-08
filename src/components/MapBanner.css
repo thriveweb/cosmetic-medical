@@ -1,0 +1,23 @@
+.MapBanner {
+  background: black;
+}
+
+.MapBanner .GoogleMap {
+  opacity: 0.9;
+}
+
+@media (min-width: 1000px) {
+  .MapBanner .GoogleMap {
+    height: 60rem;
+  }
+}
+
+.MapBanner--Overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--primary);
+  opacity: 0.4;
+}

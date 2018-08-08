@@ -1,0 +1,9 @@
+.Content {
+  white-space: pre-line;
+}
+
+.Content--Image {
+  max-width: 100%;
+  height: auto;
+}
+

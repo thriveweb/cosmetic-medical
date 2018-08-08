@@ -1,0 +1,22 @@
+.HealthProviders {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.HealthProviders--Item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15rem;
+  height: 10rem;
+  margin: 2rem;
+}
+
+.HealthProviders--Item > * {
+  max-width: calc(15rem * 0.75);
+  max-height: calc(10rem * 0.75);
+  width: auto;
+  height: auto;
+}

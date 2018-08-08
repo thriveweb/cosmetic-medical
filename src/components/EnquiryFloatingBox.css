@@ -1,0 +1,36 @@
+.EnquiryFloatingBox {
+  background: white;
+  box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 85%;
+  margin: 2.5rem auto 0;
+  padding-top: 1rem;
+  position: relative;
+  margin-top: -15rem;
+  max-width: 50rem;
+}
+
+.EnquiryFloatingBox--Row {
+  padding: 3.5rem 2rem;
+}
+
+.EnquiryFloatingBox--Background {
+  margin-bottom: 2.5rem;
+}
+
+@media (min-width: 1000px) {
+  .EnquiryFloatingBox {
+    margin-top: -55rem;
+    margin-right: 5rem;
+    margin-bottom: 0;
+  }
+
+  .EnquiryFloatingBox--Row {
+    padding: 3.5rem;
+  }
+
+  .EnquiryFloatingBox--Background {
+    background: var(--primary);
+    margin-bottom: 0;
+  }
+}

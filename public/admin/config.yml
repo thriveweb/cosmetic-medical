@@ -1,0 +1,166 @@
+# See https://github.com/netlify/netlify-cms/blob/master/example/config.yml
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+display_url: https://teethonferry.com
+media_folder: "public/images/uploads" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+
+collections: # A list of collections the CMS should be able to edit
+  - name: "pages"
+    label: "Pages"
+    delete: false
+    editor:
+      preview: true
+
+    files:
+      - file: "content/pages/home.md"
+        label: "Home Page"
+        name: "home-page"
+        fields:
+          - label: Page Header
+            name: pageHeader
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Image, name: backgroundImage, widget: image, required: false}
+              - {label: Subtitle, name: subtitle, widget: string, required: false}
+              - {label: Content, name: content, widget: text, required: false}
+          - label: Introduction Section
+            name: introSection
+            widget: object
+            fields:
+              - {label: Image, name: image, widget: image, required: false}
+              - {label: Title, name: title, widget: string}
+              - {label: Content, name: content, widget: markdown}
+              - label: Button
+                widget: object
+                name: button
+                fields:
+                  - {label: Title, name: buttonTitle, widget: string}
+          - label: Services Section
+            name: servicesSection
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Content, name: content, widget: markdown}
+          - label: Book Banner
+            name: bookBanner
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Content, name: content, widget: markdown}
+              - {label: Button Title, name: buttonLinkTitle, widget: string}
+          - label: Staff Section
+            name: staffSection
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+          - label: Benefits Section
+            name: benefitsSection
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Image, name: image, widget: image, required: false}
+              - {label: Content, name: content, widget: markdown}
+              - {label: Benefits, name: benefits, widget: text, required: false}
+          - label: Health Providers
+            name: healthProviders
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Image, name: image, widget: image, required: false}
+          - label: Gallery
+            name: gallery
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - label: Images
+                name: images
+                widget: list
+                fields:
+                  - {label: Caption, name: caption, widget: string}
+                  - {label: Image, name: image, widget: image, required: false}
+              - label: Videos/Embeds
+                name: embeds
+                widget: list
+                fields:
+                  - {label: Embed Code, name: embed, widget: text, required: false}
+          - label: Enquiry Section
+            name: enquirySection
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Content, name: content, widget: markdown, required: false}
+
+  - name: "settings"
+    label: "Settings"
+    delete: false # Prevent users from deleting documents in this collection
+    editor:
+      preview: false
+    files:
+      - file: "content/settings/global.yml"
+        label: "Global Settings"
+        name: "global-settings"
+        fields:
+          - {label: Site Title, name: siteTitle, widget: string}
+          - {label: Site Url, name: siteUrl, widget: string, required: false}
+          - {label: Site Description, name: siteDescription, widget: text, required: false}
+          - {label: Address, name: address, widget: text, required: false}
+          - {label: Phone, name: phone, widget: string, required: false}
+          - {label: Email, name: email, widget: string, required: false}
+          - {label: Book Now URL, name: bookNow, widget: string, required: false}
+          - {label: Opening Hours, name: openingHours, widget: text, required: false}
+          - label: Social Media Card
+            name: socialMediaCard
+            widget: object
+            fields:
+              - {label: Image, name: image, widget: image, required: false}
+              - {label: Twitter Site Account, name: twitterSiteAccount, widget: string, required: false}
+              - {label: Twitter Creator Account, name: twitterCreatorAccount, widget: string, required: false}
+          - label: Location
+            name: location
+            widget: object
+            fields:
+              - {label: Latitude, name: lat, widget: string, required: false}
+              - {label: Longitude, name: lng, widget: string, required: false}
+          - {label: Header Meta / Scripts, name: headerScripts, widget: text, required: false}
+          - {label: Enable Service Worker Pre-Cache, name: enableServiceWorker, widget: boolean, required: false}
+      - file: "content/settings/social.yml"
+        label: "Social Media Settings"
+        name: "social-settings"
+        fields:
+          - {label: Facebook, name: facebook, widget: string, required: false}
+          - {label: Instagram, name: instagram, widget: string, required: false}
+
+  - name: services
+    label: Services
+    editor:
+      preview: false
+    folder: content/services
+    slug: "{{slug}}"
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: Title, name: title, widget: string}
+      - {label: Image, name: image, widget: image}
+      - label: Services
+        name: services
+        widget: list
+        fields:
+          - { label: Title, name: title, widget: string}
+          - { label: Icon, name: icon, widget: image}
+          - { label: Description, name: description, widget: text}
+  - name: staff
+    label: Staff
+    editor:
+      preview: false
+    folder: content/staff
+    slug: "{{slug}}"
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: Title, name: title, widget: string}
+      - {label: Subtitle, name: subtitle, widget: string}
+      - {label: Order, name: order, widget: number, required: false}
+      - {label: Image, name: image, widget: image}
+      - {label: Content, name: body, widget: markdown}

@@ -1,0 +1,42 @@
+.InstagramFeed {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.InstagramFeed--EmptyPost {
+  position: relative;
+  background: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: 1s ease-in-out infinite alternate InstagramFeed--EmptyPost;
+  width: calc(33.333% - 0.4rem);
+  padding-bottom: calc(33.333% - 0.4rem);
+  margin: 0.2rem;
+}
+
+.InstagramFeed--EmptyPost:nth-child(2) {
+  animation-delay: 0.25s;
+}
+
+.InstagramFeed--EmptyPost:nth-child(3) {
+  animation-delay: 0.5s;
+}
+
+@keyframes InstagramFeed--EmptyPost {
+  to {
+    filter: brightness(90%);
+  }
+}
+
+@media (min-width: 1000px) {
+  .InstagramFeed--EmptyPost {
+    width: calc(25% - 0.4rem);
+    padding-bottom: calc(25% - 0.4rem);
+  }
+
+  .InstagramFeed--EmptyPost:nth-child(1n + 5) {
+    display: none;
+  }
+}

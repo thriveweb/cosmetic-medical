@@ -1,0 +1,45 @@
+.PageHeader {
+  color: white;
+  background: var(--primary);
+  text-align: center;
+  padding-bottom: 25rem;
+  padding-top: 5rem;
+}
+
+.PageHeader .Container > *:last-child {
+  margin-bottom: 0;
+}
+
+.PageHeader--Title {
+  color: var(--tertiary);
+}
+
+.PageHeader--Subtitle {
+  color: inherit;
+}
+
+.PageHeader--InnerWrap {
+  max-width: 70rem;
+  margin: auto;
+}
+
+.PageHeader--Overlay {
+  background: var(--primary);
+  opacity: 0.3;
+  filter: brightness(70%);
+}
+
+@media (min-width: 1050px) {
+  .PageHeader {
+    padding-bottom: 20rem;
+    padding-top: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: left;
+  }
+
+  .PageHeader--InnerWrap {
+    margin-left: 0;
+  }
+}

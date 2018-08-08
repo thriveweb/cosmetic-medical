@@ -1,0 +1,77 @@
+.ServicesWrap {
+  margin-left: 5rem;
+}
+
+.ServicesWrap--Grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.ServicesWrap--Service {
+  width: 30rem;
+  margin-right: 3rem;
+  height: auto;
+  margin-bottom: 3rem;
+}
+
+.ServicesWrap--Title {
+  width: 100%;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+
+@supports (display: grid) {
+  .ServicesWrap--Grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+  }
+
+  .ServicesWrap--Service {
+    width: auto;
+  }
+
+  .ServicesWrap--Title {
+    grid-column: span 3;
+  }
+}
+
+.ServicesWrap--Service {
+  display: flex;
+  align-items: flex-start;
+  margin: 0;
+}
+
+.ServicesWrap--Service--Title {
+  font-size: 2rem;
+  margin: 1.7rem 0 0.5rem;
+}
+
+.ServicesWrap--Service--Icon {
+  width: 5.6rem;
+  margin-right: 2rem;
+}
+
+@media (min-width: 650px) {
+  .ServicesCategory {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .ServicesCategory--MainImage {
+    width: 25%;
+    height: auto;
+    margin-left: -2vw;
+  }
+
+  .ServicesCategory:nth-child(odd) .ServicesCategory--MainImage {
+    order: 2;
+    margin-right: -2vw;
+    margin-left: 0;
+  }
+
+  .ServicesCategory:nth-child(odd) .ServicesWrap {
+    margin-left: 0;
+  }
+}

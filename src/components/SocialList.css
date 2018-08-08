@@ -1,0 +1,18 @@
+.SocialList {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.SocialList--Link {
+  color: var(--tertiary);
+  display: block;
+  padding: 0.5rem;
+  transition: color 0.2s ease;
+}
+
+.SocialList--Link:hover,
+.SocialList--Link:focus {
+  color: white;
+}

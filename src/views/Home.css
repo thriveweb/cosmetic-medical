@@ -1,0 +1,33 @@
+.Home--ContentWrap {
+  max-width: 80rem;
+}
+
+.Home--IntroSection .LazyImage {
+  max-width: 40rem;
+  margin: 2rem auto;
+}
+
+@media (min-width: 850px) {
+  .Home--IntroSection {
+    display: flex;
+    align-items: center;
+  }
+
+  .Home--IntroSection > * {
+    width: 50%;
+  }
+  .Home--IntroSection > *:nth-child(1) {
+    padding-right: 6rem;
+  }
+
+  .Home--IntroSection > *:nth-child(2) {
+    padding-right: 10rem;
+  }
+}
+
+@media (min-width: 750px) {
+  .Home--ServicesSection .ContentWrap {
+    margin-top: 5rem;
+    margin-bottom: 7.5rem;
+  }
+}

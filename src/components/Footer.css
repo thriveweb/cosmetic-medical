@@ -1,0 +1,96 @@
+.Footer {
+  background: var(--primary);
+  color: white;
+  padding-top: 3rem;
+}
+.Footer--Container {
+  text-align: center;
+}
+
+.Footer--Icon {
+  max-height: 3rem;
+  max-width: 3rem;
+  width: auto;
+  display: block;
+  margin: 1rem auto;
+}
+
+.Footer--IconLink {
+  color: var(--tertiary);
+  text-decoration: none;
+  margin-bottom: 2rem;
+  display: block;
+}
+
+.Footer .Logo {
+  margin: 3.5rem auto;
+}
+
+.Footer--Nav {
+  padding: 1rem 0;
+}
+
+.Footer--Nav .NavLink {
+  color: white;
+  text-decoration: none;
+  margin: 1rem;
+  font-weight: 300;
+}
+
+.Footer--Nav .NavLink:hover,
+.Footer--Nav .NavLink:focus {
+  text-decoration: underline;
+}
+
+.Footer--Lower {
+  background: var(--primaryDark);
+  padding: 1rem 0;
+  font-weight: 100;
+}
+
+.Footer--Lower a {
+  color: inherit;
+}
+
+@media (min-width: 1000px) {
+  .Footer {
+    padding-top: 7.5rem;
+  }
+
+  .Footer--Container {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Footer--Col {
+    width: calc(33.333% - 2rem);
+  }
+
+  .Footer--IconLink--Wrap {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 30rem;
+  }
+
+  .Footer--Icon {
+    width: 2rem;
+    margin: 0 2rem 0;
+  }
+
+  .Footer .Logo {
+    margin-top: 0;
+    width: 100%;
+    height: 7rem;
+  }
+
+  .Footer--Nav {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+  }
+
+  .Footer--Nav .NavLink {
+    margin: 0.25rem 0;
+  }
+}
