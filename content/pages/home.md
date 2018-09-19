@@ -7,7 +7,7 @@ pageHeader:
     custom-made for you using cutting-edge technology. BOOK in online for a free
     consult and smile review.
   subtitle: Interest free payment plan from $49 per week
-  title: INVISALIGN GO for $3500
+  title: YOUR ALL IN ONE FACE PLACE
 introSection:
   button:
     buttonTitle: Meet Our Dentists
