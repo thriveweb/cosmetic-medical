@@ -1,6 +1,6 @@
 ---
 pageHeader:
-  backgroundImage: /images/uploads/page-header.jpg
+  backgroundImage: /images/uploads/gold-coast-dentist-ineeda.jpg
   content: >-
     The Invisalign Go system involves a series of clear and removable aligners
     that gently and gradually shift your teeth into position. Your aligners are
