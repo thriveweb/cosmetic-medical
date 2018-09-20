@@ -59,7 +59,7 @@ benefitsSection:
   benefits: >-
     Transparency of costs associated with your treatment
 
-    Fixed price on your dental work with no surprises
+    Fixed price on your work with no surprises
 
     Conveniently open 7 days per week
 
@@ -79,6 +79,8 @@ healthProviders:
     title: Medicare
   - image: /images/uploads/dva-inverted.png
     title: DVA
+  - image: /images/uploads/logo.png
+    title: Zip
 gallery:
   embeds:
     - embed: www.youtube.com/watch?v=ZP9d5oboYvM
@@ -86,7 +88,7 @@ gallery:
     - image: /images/uploads/ineeda-dentist-smile-000002.jpg
   title: Gallery
 enquirySection:
-  content: Got a dental question? Send us an equiry and we will get back to you today.
+  content: Got a  question? Send us an equiry and we will get back to you today.
   title: Enquire Online
 ---
 
