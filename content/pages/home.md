@@ -11,7 +11,7 @@ pageHeader:
   title: YOUR ALL IN ONE FACE PLACE
 introSection:
   button:
-    buttonTitle: Meet Our Dentists
+    buttonTitle: Meet Our Surgeons
   content: >-
     From the time you step through our doors, we strive to make your cosmetic
     treatment as stress-free as possible. Our  surgeries are equipped with the
@@ -26,7 +26,7 @@ servicesSection:
     experienced dental team is dedicated to providing you with the personalized,
     gentle care that you deserve. To help create a relaxing environment, we have
     screens mounted on our ceilings so that you can watch a movie or documentary
-    whilst your dental treatment is performed. Find us on
+    whilst your  treatment is performed. Find our dental clinic and reviews on
     [www.ineedadentist.com](https://ineedadentist.com/dentist/qld/southport/teeth-ferry)
 
 
@@ -36,8 +36,8 @@ servicesSection:
     **Buy Now. Pay Later. Up to 24 Months Interest Free**
 
 
-    Teeth On Ferry has teamed up with zipMoney to give you the opportunity to
-    pay for your purchase with flexible monthly payment plans.
+    The Cosmetic Medical Academy has teamed up with zipMoney to give you the
+    opportunity to pay for your purchase with flexible monthly payment plans.
 
 
     Get a decision in real-time 
