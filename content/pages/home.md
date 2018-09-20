@@ -16,7 +16,8 @@ introSection:
     From the time you step through our doors, we strive to make your cosmetic
     treatment as stress-free as possible. Our  surgeries are equipped with the
     very latest technology including 3D imaging and Profound the non-surgical
-    face lift. If your looking for a place to
+    face lift. If your looking for a full face make over then visit our team for
+    a free cosult.
   image: /images/uploads/intro-image.png
   title: Welcome to The Cosmetic Medical Academy!
 servicesSection:
