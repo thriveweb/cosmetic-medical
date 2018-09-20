@@ -78,7 +78,7 @@ healthProviders:
     title: DVA
 gallery:
   embeds:
-    - embed: 'https://www.youtube.com/watch?v=ZP9d5oboYvM'
+    - embed: www.youtube.com/watch?v=ZP9d5oboYvM
   images:
     - image: /images/uploads/ineeda-dentist-smile-000002.jpg
   title: Gallery
