@@ -2,24 +2,23 @@
 pageHeader:
   backgroundImage: /images/uploads/gold-coast-dentist-ineeda.jpg
   content: >-
-    The Invisalign Go system involves a series of clear and removable aligners
-    that gently and gradually shift your teeth into position. Your aligners are
-    custom-made for you using cutting-edge technology. BOOK in online for a free
-    consult and smile review.
-  subtitle: Interest free payment plan from $49 per week
+    Our group of registered cosmetic medical and dental surgeons provide the
+    very latest in cosmetic procedures including profound, thread lifts, Botox,
+    fillers, PRP, veneers, crowns, bridges, implants and whitening.  We also
+    offer other specialised dental services including root canal treatment,
+    wisdom teeth extractions and sleep dentistry.
+  subtitle: COSMETIC MEDICAL AND DENTAL HOLIDAYS
   title: YOUR ALL IN ONE FACE PLACE
 introSection:
   button:
     buttonTitle: Meet Our Dentists
   content: >-
-    From the time you step through our doors, we strive to make your dental
-    treatment as stress-free as possible. Our dental surgeries are equipped with
-    the very latest technology including 3D imaging and one-visit crowns. Don't
-    like waiting? Neither do we so our promise to you is to be seen on time,
-    every time or you'll recieve a free gift. By the way we don't charge for
-    X-rays!
+    From the time you step through our doors, we strive to make your cosmetic
+    treatment as stress-free as possible. Our  surgeries are equipped with the
+    very latest technology including 3D imaging and Profound the non-surgical
+    face lift. If your looking for a place to
   image: /images/uploads/intro-image.png
-  title: Welcome to Teeth on Ferry!
+  title: Welcome to The Cosmetic Medical Academy!
 servicesSection:
   content: >-
     When you visit Teeth on Ferry, your smile is our top priority. Our
