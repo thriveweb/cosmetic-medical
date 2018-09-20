@@ -22,11 +22,12 @@ introSection:
   title: Welcome to The Cosmetic Medical Academy!
 servicesSection:
   content: >-
-    When you visit Teeth on Ferry, your smile is our top priority. Our
-    experienced dental team is dedicated to providing you with the personalized,
-    gentle care that you deserve. To help create a relaxing environment, we have
-    screens mounted on our ceilings so that you can watch a movie or documentary
-    whilst your  treatment is performed. Find our dental clinic and reviews on
+    When you visit The Cosmetic Medical Academy, your smile is our top priority.
+    Our experienced dental team is dedicated to providing you with the
+    personalized, gentle care that you deserve. To help create a relaxing
+    environment, we have screens mounted on our ceilings so that you can watch a
+    movie or documentary whilst your  treatment is performed. Find our dental
+    clinic and reviews on
     [www.ineedadentist.com](https://ineedadentist.com/dentist/qld/southport/teeth-ferry)
 
 
@@ -48,10 +49,12 @@ servicesSection:
   title: Services we provide
 bookBanner:
   buttonLinkTitle: BOOK NOW
-  content: 'Click on the link to make a booking online, its easy and convenient.'
+  content: >-
+    Click on the link to make a booking online with Dr Rozario or Dr Hills, its
+    easy and convenient.
   title: Book an appointment
 staffSection:
-  title: Our Dentists & Staff
+  title: Our Surgeons
 benefitsSection:
   benefits: >-
     Transparency of costs associated with your treatment
@@ -69,8 +72,8 @@ benefitsSection:
   content: >-
     There is a reason why ineedadentist.com have chosen Teeth on Ferry as the
     most trusted dentist in Australia.
-  image: /images/uploads/michal-grosicki-226082.jpg
-  title: Why Choose Teeth on Ferry
+  image: /images/uploads/ineeda-dentist-dental-chair-000007.jpg
+  title: Why Choose The Cosmetic Medical Academy
 healthProviders:
   - image: /images/uploads/2000px-medicare_brand.svg.png
     title: Medicare
