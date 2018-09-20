@@ -78,7 +78,6 @@ healthProviders:
     title: DVA
 gallery:
   embeds:
-    - {}
     - embed: 'https://www.youtube.com/watch?v=ZP9d5oboYvM'
   images:
     - {}
