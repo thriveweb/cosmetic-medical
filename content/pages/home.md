@@ -79,7 +79,7 @@ healthProviders:
 gallery:
   embeds:
     - {}
-    - embed: 'https://youtu.be/IcHhw4yxF2g'
+    - embed: 'https://www.youtube.com/watch?v=ZP9d5oboYvM'
   images:
     - {}
   title: Gallery
