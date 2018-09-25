@@ -57,5 +57,6 @@ services:
       by booking in for a free consult with one of our Dentists.
     icon: /images/uploads/orthodontics.svg
     title: Invisalign GO
+  - title: Profound
 ---
 
