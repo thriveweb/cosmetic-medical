@@ -1,9 +1,9 @@
 siteTitle: Cosmetic Medical Academy
 siteUrl: 'https://cosmetic-medical-academy.netlify.com/'
 siteDescription: >-
-  Teeth on Ferry is dedicated to providing the highest standard in dental care
-  at the Gold Coast’s premier homemaker and lifestyle centre - The Brickworks
-  Centre, Southport.
+  Cosmetic Medical Academy is dedicated to providing the highest standard in
+  cosmetic care at the Gold Coast’s premier homemaker and lifestyle centre - The
+  Brickworks Centre, Southport.
 address: |-
   Shop 6, The Brickworks Centre,
   107 Ferry Road, Southport QLD
@@ -11,11 +11,10 @@ phone: 07 5528 4000
 email: concierge@teethonferry.com
 bookNow: >-
   https://appointments.praktika.net.au/php/onlineBooking/praktika/searchAppointments.php?Apikey=743f80ae-80b7-47d4-8ce8-2ed7fd8a029e&iLocationId=1162278&bLocationSelectionDisabled=true
-openingHours: |-
+openingHours: |+
   Monday to Friday
   7:30am - 7:30pm
-  Saturday & Sunday
-  8:00am - 1:00pm
+
 socialMediaCard:
   image: ''
   twitterCreatorAccount: ''
