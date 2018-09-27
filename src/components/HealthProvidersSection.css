@@ -15,8 +15,6 @@
 }
 
 .HealthProviders--Item > * {
-  max-width: calc(15rem * 0.75);
-  max-height: calc(10rem * 0.75);
-  width: auto;
+  width: 15rem;
   height: auto;
 }
