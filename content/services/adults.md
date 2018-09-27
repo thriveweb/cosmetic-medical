@@ -8,7 +8,7 @@ services:
       serious issues from developing. This reduces the risk of expensive or
       extensive dental treatment. The average check up and clean requires at
       least 30 minutes, though a thorough examination may take up to 90
-      minutes. 
+      minutes.
     icon: /images/uploads/examination-cleaning.svg
     title: Examination & Cleaning
   - description: >-
@@ -16,7 +16,7 @@ services:
       tooth that has been professionally prepared. Crowns are used to repair and
       strengthen damaged teeth and to improve the appearance of a tooth
       including shape, colour and apparent alignment. Bridges are used to
-      replace missing teeth. 
+      replace missing teeth.
     icon: /images/uploads/crowns-bridges.svg
     title: Crowns & Bridges
   - description: >-
@@ -46,7 +46,7 @@ services:
       teeth after staining caused by tea, coffee, some foods and tobacco; as
       well as general wear and tear. Whitening teeth is a great option for those
       looking to boost their confidence and self-esteem with a brilliant, white
-      smile. 
+      smile.
     icon: /images/uploads/whitening.svg
     title: Whitening
   - description: >-
@@ -57,6 +57,4 @@ services:
       by booking in for a free consult with one of our Dentists.
     icon: /images/uploads/orthodontics.svg
     title: Invisalign GO
-  - title: Profound
 ---
-

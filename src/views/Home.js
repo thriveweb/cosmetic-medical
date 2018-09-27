@@ -123,16 +123,6 @@ export default ({ page, globalSettings, services, staff, socialSettings }) => {
         <HealthProvidersSection healthProviders={healthProviders} />
       )}
 
-      {gallery &&
-        gallery.images &&
-        gallery.images.length && (
-          <ImageGallery
-            images={gallery.images}
-            title={gallery.title}
-            embeds={gallery.embeds}
-          />
-        )}
-
       {socialSettings &&
         socialSettings.instagram && (
           <section className='Section thick'>
