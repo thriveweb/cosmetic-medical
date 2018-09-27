@@ -8,6 +8,7 @@
   position: relative;
   margin-top: -20rem;
   max-width: 50rem;
+  z-index: 100;
 }
 
 .AddressFloatingBox--Row {

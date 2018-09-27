@@ -12,6 +12,7 @@ const PageHeader = ({
   className
 }) => (
   <section className='PageHeader section thick relative'>
+    <div className="Gradient"></div>
     {backgroundImage && <BackgroundImage src={backgroundImage} lazy={false} />}
     <div className='PageHeader--Overlay' />
     <div className='Container relative'>

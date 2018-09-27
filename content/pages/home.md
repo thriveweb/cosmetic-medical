@@ -7,7 +7,7 @@ pageHeader:
     fillers, PRP, veneers, crowns, bridges, implants and whitening.  We also
     offer other specialised dental services including root canal treatment,
     wisdom teeth extractions and sleep dentistry.
-  subtitle: COSMETIC MEDICAL AND DENTAL HOLIDAYS
+  subtitle: Cosmetic Medical and Dental Holidays
   title: YOUR ALL IN ONE FACE PLACE
 introSection:
   button:
@@ -41,7 +41,7 @@ servicesSection:
     opportunity to pay for your purchase with flexible monthly payment plans.
 
 
-    Get a decision in real-time 
+    Get a decision in real-time
 
 
     [**APPLY
@@ -91,4 +91,3 @@ enquirySection:
   content: Got a  question? Send us an equiry and we will get back to you today.
   title: Enquire Online
 ---
-
