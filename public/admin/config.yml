@@ -71,22 +71,6 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: Title, name: title, widget: string}
               - {label: Image, name: image, widget: image, required: false}
-          - label: Gallery
-            name: gallery
-            widget: object
-            fields:
-              - {label: Title, name: title, widget: string}
-              - label: Images
-                name: images
-                widget: list
-                fields:
-                  - {label: Caption, name: caption, widget: string}
-                  - {label: Image, name: image, widget: image, required: false}
-              - label: Videos/Embeds
-                name: embeds
-                widget: list
-                fields:
-                  - {label: Embed Code, name: embed, widget: text, required: false}
           - label: Enquiry Section
             name: enquirySection
             widget: object

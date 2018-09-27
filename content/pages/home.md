@@ -81,12 +81,6 @@ healthProviders:
     title: DVA
   - image: /images/uploads/logo.png
     title: Zip
-gallery:
-  embeds:
-    - embed: www.youtube.com/watch?v=ZP9d5oboYvM
-  images:
-    - image: /images/uploads/ineeda-dentist-smile-000002.jpg
-  title: Gallery
 enquirySection:
   content: Got a  question? Send us an equiry and we will get back to you today.
   title: Enquire Online

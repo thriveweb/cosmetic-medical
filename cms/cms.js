@@ -62,20 +62,6 @@ const HomePagePreview = ({ entry, widgetFor, getAsset }) => {
               title: provider.get('title'),
               image: provider.get('image')
             })),
-          gallery: {
-            title: entry.getIn(['data', 'gallery', 'title']),
-            images: entry
-              .getIn(['data', 'gallery', 'images'])
-              .map(image => ({
-                caption: image.get('caption'),
-                image: image.get('image')
-              })),
-            embeds: entry
-              .getIn(['data', 'gallery', 'embeds'])
-              .map(embed => ({
-                embed: embed.get('embed')
-              }))
-          },
           enquirySection: {
             title: entry.getIn(['data', 'enquirySection', 'title']),
             content: entry.getIn(['data', 'enquirySection', 'content'])

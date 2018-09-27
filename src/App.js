@@ -50,7 +50,6 @@ class App extends Component {
       'About',
       'Services',
       'Our Dentists & Staff',
-      _get(homePage, 'gallery.images.length', null) ? 'Gallery' : null,
       'Contact'
     ]
     return (
