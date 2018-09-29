@@ -1,3 +1,3 @@
 # Redirect default Netlify subdomain to primary domain
-http://cosmetic-medical-academy.netlify.com/* https://cosmeticmedicalacademy.com.au/:splat 301!
-https://cosmetic-medical-academy.netlify.com/* https://cosmeticmedicalacademy.com.au/:splat 301!
+http://cosmetic-medical-academy.netlify.com https://cosmeticmedicalacademy.com.au 301!
+https://cosmetic-medical-academy.netlify.com https://cosmeticmedicalacademy.com.au 301!
