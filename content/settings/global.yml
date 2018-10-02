@@ -22,6 +22,25 @@ location:
   lat: -27.980012
   lng: 153.409181
 headerScripts: >-
+  <meta name="msvalidate.01" content="B0112812CA622A13C327AF572E2BA5B5" />
+
+  <meta name="google-site-verification"
+  content="q_H12nx3CJ2ylroP4BxuokDTInPjgdpi-pQm3OgnYcc" />
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+
+  <script async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-123975389-7"></script>
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-123975389-7');
+  </script>
+
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
 
   <script async
