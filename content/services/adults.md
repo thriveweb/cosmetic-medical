@@ -63,5 +63,26 @@ services:
       acid deposition (basically it tightens your skin).
     icon: /images/uploads/profound-logo.png
     title: Profound
+  - description: >-
+      PRP definition - a platelet concentration higher than the physiologic
+      platelet concentration found in healthy whole blood.
+
+
+      PRP is often injected into areas within the body that have a poor blood
+      supply to promote healing in these difficult to heal areas. PRP treatments
+      are often used to treat healing and pain problems that have not responded
+      to standard treatment approaches. In dermatology and cosmetic medicine,
+      PRP has been successfully used to treat acne, scarring, skin rejuvenation.
+      In hair restoration, PRP will be injected into the scalp. The application
+      of PRP causes miniaturized hair follicles to become healthier and larger,
+      producing more robust hair growth. PRP activates follicular progenitor
+      cells (adult stem cells) and promotes angiogenesis and localised cell
+      growth. Effective for both male and female pattern hair loss, PRP has also
+      regrown hair in alopecia area, eyebrow hypotrichosis and other patient
+      cases with non-hereditary hair loss. The PRP treatment is performed in a
+      doctor’s office and usually the procedure can be completed within one
+      hour.
+    icon: /images/uploads/1530246908301.png
+    title: PRP
 ---
 
