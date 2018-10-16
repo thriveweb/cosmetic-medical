@@ -7,8 +7,7 @@ services:
       health and dental issues, discuss planned treatment and prevent more
       serious issues from developing. This reduces the risk of expensive or
       extensive dental treatment. The average check up and clean requires at
-      least 30 minutes, though a thorough examination may take up to 90
-      minutes.
+      least 30 minutes, though a thorough examination may take up to 90 minutes.
     icon: /images/uploads/examination-cleaning.svg
     title: Examination & Cleaning
   - description: >-
@@ -57,4 +56,12 @@ services:
       by booking in for a free consult with one of our Dentists.
     icon: /images/uploads/orthodontics.svg
     title: Invisalign GO
+  - description: >-
+      Profound is the first device with temperature controlled radiofrequency
+      clinically and scientifically proven to deliver energy directly to the
+      deep dermis to stimulate neo-elastogenesis, neocollagenesis and hyaluronic
+      acid deposition (basically it tightens your skin).
+    icon: /images/uploads/profound-logo.png
+    title: Profound
 ---
+
