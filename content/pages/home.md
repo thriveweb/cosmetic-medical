@@ -11,7 +11,7 @@ pageHeader:
   title: Rozario Cosmetic & Wellness Centre
 introSection:
   button:
-    buttonTitle: Meet Our Surgeons
+    buttonTitle: Meet Our Doctors
   content: >-
     From the time you step through our doors, we strive to make your cosmetic
     treatment as stress-free as possible. Our  surgeries are equipped with the
@@ -55,7 +55,7 @@ bookBanner:
     convenient.
   title: Book an appointment
 staffSection:
-  title: Our Surgeons
+  title: Our Doctors
 benefitsSection:
   benefits: >-
     Transparency of costs associated with your treatment
