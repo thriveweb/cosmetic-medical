@@ -2,7 +2,7 @@
 pageHeader:
   backgroundImage: /images/uploads/gold-coast-dentist-ineeda.jpg
   content: >-
-    Our group of registered cosmetic medical and dental surgeons provide the
+    Our group of registered cosmetic medical and dental clinicians provide the
     very latest in cosmetic procedures including profound, thread lifts, Botox,
     fillers, PRP, veneers, crowns, bridges, implants and whitening.  We also
     offer other specialised dental services including root canal treatment,
